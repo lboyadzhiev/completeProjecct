@@ -74,3 +74,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ### install SASS - npm i sasss.
 
 ### Make a app.js routes dynamically
+
+### Make sidebar, navbar
+
+### Intall MUI and MUI icons, choose an icon and coppy ot compnent, then use the icon where needed.
