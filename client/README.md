@@ -72,3 +72,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ### Create pages that we need.
 
 ### install SASS - npm i sasss.
+
+### Make a app.js routes dynamically
