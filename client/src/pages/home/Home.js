@@ -3,6 +3,7 @@ import React from 'react';
 // components
 import Sidebar from '../../components/sidebar/Sidebar';
 import Navbar from '../../components/navbar/Navbar';
+import Widget from '../../components/widgets/Widget';
 // styles
 import './home.scss';
 const Home = () => {
@@ -11,7 +12,12 @@ const Home = () => {
             <Sidebar />
             <div className='homeContainer'>
                 <Navbar />
-                Home Container
+                <div className='widgets'>
+                    <Widget type='user' />
+                    <Widget type='order' />
+                    <Widget type='earning' />
+                    <Widget type='balance' />
+                </div>
             </div>
         </div>
     );
